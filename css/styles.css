@@ -1,0 +1,41 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(../img/theater-seats-1033969_1920.jpg) no-repeat center fixed;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.piano__key {
+  display: inline-block;
+  background-color: #FAFAFC;
+  border-radius: 8px;
+  width: 50px;
+  height: 150px;
+  box-shadow: 4px 6px 5px #1C1D22;
+  transition: all .1s ease-out;
+  margin: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 1px 2px 1px #DABA7C;
+  font-size: 2rem
+}
+
+.piano__key--pressed {
+  box-shadow: none;
+  text-shadow: none;
+}
